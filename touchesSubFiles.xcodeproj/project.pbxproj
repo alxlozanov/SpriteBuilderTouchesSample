@@ -94,8 +94,8 @@
 		BC5399DA1A44DCC90063F482 /* GLActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D51A44DCC90063F482 /* GLActivityKit.framework */; };
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
-		FAE2CCA81B3ADBC40044653C /* SubFileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CCA71B3ADBC40044653C /* SubFileNode.m */; };
-		FAE2CCA91B3ADBC40044653C /* SubFileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CCA71B3ADBC40044653C /* SubFileNode.m */; };
+		FAE2CCB61B3B4AF80044653C /* SubFileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CCB51B3B4AF80044653C /* SubFileNode.m */; };
+		FAE2CCB71B3B4AF80044653C /* SubFileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CCB51B3B4AF80044653C /* SubFileNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,8 +215,8 @@
 		BC5399D61A44DCC90063F482 /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
-		FAE2CCA61B3ADBC40044653C /* SubFileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubFileNode.h; sourceTree = "<group>"; };
-		FAE2CCA71B3ADBC40044653C /* SubFileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubFileNode.m; sourceTree = "<group>"; };
+		FAE2CCB41B3B4AF80044653C /* SubFileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubFileNode.h; path = Source/SubFileNode.h; sourceTree = "<group>"; };
+		FAE2CCB51B3B4AF80044653C /* SubFileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubFileNode.m; path = Source/SubFileNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -443,9 +443,9 @@
 				7A40362019DDEF0D007B6E8F /* Platforms */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				FAE2CCB41B3B4AF80044653C /* SubFileNode.h */,
+				FAE2CCB51B3B4AF80044653C /* SubFileNode.m */,
 				D352B48019EC608A00829775 /* MetalShaders */,
-				FAE2CCA61B3ADBC40044653C /* SubFileNode.h */,
-				FAE2CCA71B3ADBC40044653C /* SubFileNode.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -815,7 +815,7 @@
 			files = (
 				927F619E196C771E000F43EF /* MainScene.m in Sources */,
 				5B121030197484FA004C1E1D /* touchesSubFilesActivity.m in Sources */,
-				FAE2CCA91B3ADBC40044653C /* SubFileNode.m in Sources */,
+				FAE2CCB71B3B4AF80044653C /* SubFileNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,7 +823,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE2CCA81B3ADBC40044653C /* SubFileNode.m in Sources */,
+				FAE2CCB61B3B4AF80044653C /* SubFileNode.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
